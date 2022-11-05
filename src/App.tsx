@@ -5,6 +5,7 @@ import {
   UseEffectSample3,
   UseEffectSample4,
 } from "./components/use-effect-hook";
+import { MathTables, UseReducerSample1 } from "./components/use-reducer-hook";
 import { UseRefSample1, UseRefSample2 } from "./components/use-ref-hook";
 import {
   UseStateSample1,
@@ -27,7 +28,9 @@ function App() {
       {/* <UseEffectSample3/> */}
       {/* <UseEffectSample4/> */}
       {/* <UseRefSample1 /> */}
-      <UseRefSample2 />
+      {/* <UseRefSample2 /> */}
+      {/* <UseReducerSample1/> */}
+      <MathTables />
     </div>
   );
 }
