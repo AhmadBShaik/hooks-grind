@@ -5,6 +5,13 @@ import {
   UseEffectSample3,
   UseEffectSample4,
 } from "./components/use-effect-hook";
+import {
+  UseMemoSample1,
+  UseMemoSample2,
+  WithoutUseMemoSample1,
+  WithoutUseMemoSample2,
+} from "./components/use-memo-hook";
+
 import { MathTables, UseReducerSample1 } from "./components/use-reducer-hook";
 import { UseRefSample1, UseRefSample2 } from "./components/use-ref-hook";
 import {
@@ -30,7 +37,15 @@ function App() {
       {/* <UseRefSample1 /> */}
       {/* <UseRefSample2 /> */}
       {/* <UseReducerSample1/> */}
-      <MathTables />
+      {/* <MathTables /> */}
+      {/* <WithoutUseMemoSample1/> */}
+      {/* <UseMemoSample1 /> */}
+      <hr />
+      <WithoutUseMemoSample1/>
+      <UseMemoSample1 />
+      <hr />
+      <WithoutUseMemoSample2 />
+      <UseMemoSample2 />
     </div>
   );
 }
