@@ -1,4 +1,5 @@
 import "./App.css";
+import UseCallbackSample1 from "./components/use-callback-hook/use-callback-sample-1";
 import {
   UseEffectSample1,
   UseEffectSample2,
@@ -40,12 +41,14 @@ function App() {
       {/* <MathTables /> */}
       {/* <WithoutUseMemoSample1/> */}
       {/* <UseMemoSample1 /> */}
+      {/* <hr /> */}
+      {/* <WithoutUseMemoSample1/> */}
+      {/* <UseMemoSample1 /> */}
+      {/* <hr /> */}
+      {/* <WithoutUseMemoSample2 /> */}
+      {/* <UseMemoSample2 /> */}
       <hr />
-      <WithoutUseMemoSample1/>
-      <UseMemoSample1 />
-      <hr />
-      <WithoutUseMemoSample2 />
-      <UseMemoSample2 />
+      <UseCallbackSample1 />
     </div>
   );
 }
