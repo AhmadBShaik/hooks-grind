@@ -1,5 +1,6 @@
 import "./App.css";
 import UseCallbackSample1 from "./components/use-callback-hook/use-callback-sample-1";
+import { UseContextSample1, UseContextSample2 } from "./components/use-context-hook";
 import {
   UseEffectSample1,
   UseEffectSample2,
@@ -47,8 +48,10 @@ function App() {
       {/* <hr /> */}
       {/* <WithoutUseMemoSample2 /> */}
       {/* <UseMemoSample2 /> */}
-      <hr />
-      <UseCallbackSample1 />
+      {/* <hr /> */}
+      {/* <UseCallbackSample1 /> */}
+      {/* <UseContextSample1 /> */}
+      <UseContextSample2 />
     </div>
   );
 }
